@@ -29,7 +29,7 @@
       var map = L.map('map', { attributionControl: false } ).setView([41.46537854943578, -75.70861145731412], 14.0);
       L.control.attribution( { prefix: false } ).addTo( map );
       
-      var tilesource_layer = L.tileLayer('file:////Users/jdm/Desktop/GitHub/GISFall23%20copy/hw5tiles/{z}/{x}/{y}.png', {
+      var tilesource_layer = L.tileLayer('./hw5tiles/{z}/{x}/{y}.png', {
         minZoom: 12,
         maxZoom: 16,
         tms: false,
