@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "boston_airport_point",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "BOS": null }, "geometry": { "type": "Point", "coordinates": [ -71.019296036267619, 42.366177406940103 ] } }
+]
+}
